@@ -1,5 +1,9 @@
 # rounce
 
+## What is Rounce?
+
+Rounce is developed using a [Nuxt.js](https://nuxtjs.org) frontend and [Flask](https://flask.palletsprojects.com/en/1.1.x/) backend. 
+
 ## Build Setup
 
 ```bash

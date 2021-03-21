@@ -52,9 +52,12 @@ export default {
   },
   methods: {
     submitArticle: function() {
-      this.$router.push({
-        path: '/article'
-      })
+      if (this.article) {
+        this.$store.commit('setUrl', this.article)
+        this.$router.push({
+          path: '/article'
+        })
+      }
     }
   }
 }
